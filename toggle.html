@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="logintab">
+
+
+
+    </div>
+    <button onclick="clickme()">CLick</button>
+
+    <style>
+      #logintab{
+        height: 200px;
+        width: 300px;
+        border: 1px solid black;
+        display: none;
+      }
+
+      
+
+    </style>
+    <script>
+        
+        var display=0;
+
+        function clickme(){
+
+            if(display==1){
+                document.getElementById("logintab").style.display="block";
+                display= 0;
+            }
+            else{
+                document.getElementById("logintab").style.display="none";
+                display=1;
+            }
+        }
+
+       
+    </script>
+</body>
+
+</html>
